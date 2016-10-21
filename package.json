@@ -1,0 +1,28 @@
+{
+  "name": "react-native-redux-router-simple",
+  "version": "1.0.0",
+  "description": "react native router component which use redux. Surport navBar(use Navigator) and tabBar config. It also surport onEnter func to change route before page to route page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fisherw/react-native-redux-router-simple.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "redux",
+    "router",
+    "navigator",
+    "navbar",
+    "tabbar"
+  ],
+  "author": "fisher <wangjiang.fly.1989@163.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fisherw/react-native-redux-router-simple/issues"
+  },
+  "homepage": "https://github.com/fisherw/react-native-redux-router-simple#readme"
+}
