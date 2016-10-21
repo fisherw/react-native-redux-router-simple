@@ -1,11 +1,14 @@
 # react-native-redux-router-simple
 react native的路由组件,结合redux实现。它提供路由配置、路由跳转、顶部导航栏、底栏功能。
+
 支持onEnter配置,可以在路由跳转前做登录授权验证决定是否重定向(replace)到登录页。
 
 #关于该组件
 组件是react-native-router-redux的简化版(去掉Schema配置,仅支持单个TabRoute配置),并在它的基础上增加了以下功能:
 1.Router标签下除了定义Route及TabRoute标签外,还可以添加其它全局标签(View,Text,自定义组件如全局Loading组件等)
+
 2.每个路由页可配置navbar或tabbar是否显示
+
 3.Router组件提供onEnter配置,可用于做跳转前置控制(登录拦截)
 
 #安装
@@ -14,7 +17,9 @@ npm install --save react-native-redux-router-simple
 ```
 
 #使用文档
-请参考react-native-router-redux文档及example示例获取基础用法(路由跳转方法与它保持一致),其它如onEnter使用请参考下方示例。
+请参考react-native-router-redux文档及example示例获取基础用法(路由跳转方法与它保持一致)。
+
+其它如onEnter使用请参考下方示例。
 
 #示例
 ```
